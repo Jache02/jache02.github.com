@@ -1,0 +1,117 @@
+/*turquoise:#1abc9c*/
+/*emerald:#2ecc71*/
+/*peter-river:#3498db*/
+/*amethyst:#9b59b6*/
+/*wet-asphalt:#34495e 
+    rosa: #d500f9*/
+html{
+    font-family: 'Kanit', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #d500f9;
+}
+a:hover{
+    opacity: 0.5;
+}
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+}
+a:visited{
+    
+}
+a:focus {
+    background: red;
+}
+
+.container{
+    background:#9b59b6; /* Respaldo */
+    background: -webkit-linear-gradient(to right, #c33764, #1d2671); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c33764, #1d2671); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.content{
+    max-width: 960px; 
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /*box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color;*/
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px rgba(0,0,0,0.23);
+    border-radius: 4px;
+    position:relative;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    padding-top: 0.3em;
+}
+.actions{
+    position:absolute;
+    top: 1em;
+    right: 1em;
+}
+.close{
+    height: 40px;  
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #642b73;
+    display: inline-block;
+    box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px rgba(0,0,0,0.23);
+    font-weight: 200;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+.fa-star{
+     color: #ffc400;
+}
+td{
+    border: solid 0px;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color:#1abc9c;
+}
+.title-item{
+    /*border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #9b59b6;
+    padding-bottom: 1em;*/
+    border-bottom: solid 2px #9b59b6;
+    padding-bottom: 1em;
+    font-size: 2em;
+}   
+.adress{
+    font-weight: bold;
+    color:#642b73;
+    font-size: 1.2em;
+}
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+    border-radius: 15%;
+}
+.position{
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
