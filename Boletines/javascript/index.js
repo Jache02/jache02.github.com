@@ -19,7 +19,7 @@ moreinfo.forEach(function(more){
         content.classList.add("animate__animated");
 
         setTimeout(function(){
-            location.href= "/Restaurantes/Horno-Di-Parma.html";
+            location.href= "/Boletines/Restaurantes/Horno-Di-Parma.html";
         },850);
         //setInterval
 
